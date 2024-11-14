@@ -1,0 +1,630 @@
+CRITICAL - 2024-11-14 09:35:21 --> CodeIgniter\Filters\Exceptions\FilterException: "corsFilter" filter must have a matching alias defined.
+[Method: GET, Route: verifyLogin]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('corsFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('corsFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 09:35:34 --> CodeIgniter\Filters\Exceptions\FilterException: "corsFilter" filter must have a matching alias defined.
+[Method: GET, Route: verifyLogin]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('corsFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('corsFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 09:42:58 --> ArgumentCountError: Too few arguments to function App\Controllers\LoginController::login(), 0 passed in D:\xampp\htdocs\genzblog\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 09:43:06 --> ArgumentCountError: Too few arguments to function App\Controllers\LoginController::login(), 0 passed in D:\xampp\htdocs\genzblog\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 09:43:28 --> ArgumentCountError: Too few arguments to function App\Controllers\LoginController::login(), 0 passed in D:\xampp\htdocs\genzblog\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 09:55:26 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(18): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 09:55:42 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(18): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 09:56:19 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(18): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 09:57:43 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(18): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 10:00:03 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(17): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 10:00:43 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(17): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 10:00:47 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(17): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 10:01:44 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(17): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 10:02:34 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(17): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 10:02:41 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(17): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 10:06:57 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(17): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 10:07:07 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: OPTIONS, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(17): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 10:11:56 --> MongoDB\Driver\Exception\InvalidArgumentException: Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+[Method: GET, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 118.
+ 1 VENDORPATH\mongodb\mongodb\src\Client.php(118): MongoDB\Driver\Manager->__construct('', [], [...])
+ 2 APPPATH\Config\MongoDB.php(17): MongoDB\Client->__construct('')
+ 3 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 4 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 10:12:51 --> TypeError: MongoDB\Client::selectDatabase(): Argument #2 ($options) must be of type array, string given, called in D:\xampp\htdocs\genzblog\app\Config\MongoDB.php on line 18
+[Method: GET, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\Client.php on line 346.
+ 1 APPPATH\Config\MongoDB.php(18): MongoDB\Client->selectDatabase('mongodb://root:root@localhost:27017/', 'test')
+ 2 APPPATH\Models\UserModel.php(13): Config\MongoDB->__construct()
+ 3 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2024-11-14 10:46:22 --> CORS Headers set
+DEBUG - 2024-11-14 10:46:53 --> CORS Headers set
+DEBUG - 2024-11-14 10:47:42 --> CORS Headers set
+CRITICAL - 2024-11-14 10:47:44 --> MongoDB\Driver\Exception\ConnectionTimeoutException: No suitable servers found (`serverSelectionTryOnce` set): [connection refused calling hello on 'localhost:27017']. Topology type: Single
+[Method: POST, Route: verifyLogin]
+in VENDORPATH\mongodb\mongodb\src\functions.php on line 597.
+ 1 VENDORPATH\mongodb\mongodb\src\functions.php(597): MongoDB\Driver\Manager->selectServer(Object(MongoDB\Driver\ReadPreference))
+ 2 VENDORPATH\mongodb\mongodb\src\Collection.php(667): MongoDB\select_server(Object(MongoDB\Driver\Manager), [...])
+ 3 APPPATH\Models\UserModel.php(18): MongoDB\Collection->findOne([...])
+ 4 APPPATH\Controllers\LoginController.php(22): App\Models\UserModel->getuserbyemailandpassword('1', '2')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2024-11-14 10:53:21 --> CORS Headers set
+DEBUG - 2024-11-14 10:55:13 --> CORS Headers set
+DEBUG - 2024-11-14 10:55:44 --> CORS Headers set
+DEBUG - 2024-11-14 11:01:20 --> CORS Headers set
+DEBUG - 2024-11-14 11:04:46 --> CORS Headers set
+DEBUG - 2024-11-14 11:04:49 --> CORS Headers set
+DEBUG - 2024-11-14 11:04:59 --> CORS Headers set
+DEBUG - 2024-11-14 11:05:04 --> CORS Headers set
+DEBUG - 2024-11-14 11:06:18 --> CORS Headers set
+DEBUG - 2024-11-14 11:06:22 --> CORS Headers set
+DEBUG - 2024-11-14 11:06:27 --> CORS Headers set
+DEBUG - 2024-11-14 11:08:00 --> CORS Headers set
+DEBUG - 2024-11-14 11:08:06 --> CORS Headers set
+DEBUG - 2024-11-14 11:11:42 --> CORS Headers set
+DEBUG - 2024-11-14 11:12:05 --> CORS Headers set
+DEBUG - 2024-11-14 11:12:09 --> CORS Headers set
+DEBUG - 2024-11-14 11:13:01 --> CORS Headers set
+DEBUG - 2024-11-14 11:23:45 --> CORS Headers set
+DEBUG - 2024-11-14 11:23:48 --> CORS Headers set
+DEBUG - 2024-11-14 11:24:04 --> CORS Headers set
+DEBUG - 2024-11-14 11:24:08 --> CORS Headers set
+DEBUG - 2024-11-14 11:25:13 --> CORS Headers set
+DEBUG - 2024-11-14 11:25:21 --> CORS Headers set
+DEBUG - 2024-11-14 11:25:27 --> CORS Headers set
+DEBUG - 2024-11-14 11:26:23 --> CORS Headers set
+DEBUG - 2024-11-14 11:26:34 --> CORS Headers set
+DEBUG - 2024-11-14 11:26:37 --> CORS Headers set
+DEBUG - 2024-11-14 11:27:01 --> CORS Headers set
+DEBUG - 2024-11-14 11:27:10 --> CORS Headers set
+DEBUG - 2024-11-14 11:27:48 --> CORS Headers set
+DEBUG - 2024-11-14 11:28:20 --> CORS Headers set
+CRITICAL - 2024-11-14 11:28:34 --> ParseError: Unclosed '{' on line 9
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Filters\CorsFilter.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\genzblog\\app\\Filters\\CorsFilter.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\CorsFilter')
+ 3 SYSTEMPATH\Filters\Filters.php(197): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\CorsFilter')
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('verifyLogin', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:28:38 --> ParseError: Unclosed '{' on line 9
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Filters\CorsFilter.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\genzblog\\app\\Filters\\CorsFilter.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\CorsFilter')
+ 3 SYSTEMPATH\Filters\Filters.php(197): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\CorsFilter')
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('verifyLogin', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:28:41 --> ParseError: Unclosed '{' on line 9
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Filters\CorsFilter.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\genzblog\\app\\Filters\\CorsFilter.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\CorsFilter')
+ 3 SYSTEMPATH\Filters\Filters.php(197): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\CorsFilter')
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('verifyLogin', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2024-11-14 11:29:15 --> CORS Headers set
+CRITICAL - 2024-11-14 11:30:11 --> Error: Class "App\Filters\CorsFilter" not found
+[Method: OPTIONS, Route: verifyLogin]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('verifyLogin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:30:16 --> Error: Class "App\Filters\CorsFilter" not found
+[Method: OPTIONS, Route: verifyLogin]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('verifyLogin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2024-11-14 11:30:46 --> CORS Headers set
+DEBUG - 2024-11-14 11:31:20 --> CORS Headers set
+DEBUG - 2024-11-14 11:31:33 --> CORS Headers set
+DEBUG - 2024-11-14 11:34:13 --> CORS Headers set
+CRITICAL - 2024-11-14 11:36:03 --> ErrorException: Undefined property: stdClass::$username
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:36:35 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:37:30 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:38:35 --> CodeIgniter\Filters\Exceptions\FilterException: "cors" filter must have a matching alias defined.
+[Method: OPTIONS, Route: verifyLogin]
+in SYSTEMPATH\Filters\Filters.php on line 778.
+ 1 SYSTEMPATH\Filters\Filters.php(778): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('cors')
+ 2 SYSTEMPATH\Filters\Filters.php(406): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(181): CodeIgniter\Filters\Filters->initialize('verifylogin')
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('verifyLogin', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:39:00 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:40:18 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:40:18 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:40:19 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:40:34 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:40:40 --> ErrorException: Undefined property: stdClass::$username
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:40:51 --> ErrorException: Undefined property: stdClass::$username
+[Method: POST, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:43:13 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:43:22 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:44:38 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:45:13 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:46:22 --> ErrorException: Attempt to read property "username" on array
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:47:45 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:48:07 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:48:14 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:51:59 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:52:04 --> ErrorException: Undefined property: stdClass::$username
+[Method: POST, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:53:15 --> ErrorException: Attempt to read property "password" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:53:22 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:53:35 --> ErrorException: Attempt to read property "username" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:53:46 --> ErrorException: Attempt to read property "password" on null
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 20.
+ 1 APPPATH\Controllers\LoginController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on null', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 11:53:51 --> ErrorException: Undefined variable $request
+[Method: OPTIONS, Route: verifyLogin]
+in APPPATH\Controllers\LoginController.php on line 19.
+ 1 APPPATH\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\genzblog\\app\\Controllers\\LoginController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 12:04:01 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: verifyLogin]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\LoginController.php(22): CodeIgniter\Model->__call('getuserbyemailandpassword', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 12:04:19 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: verifyLogin]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\LoginController.php(22): CodeIgniter\Model->__call('getuserbyemailandpassword', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 12:04:44 --> ErrorException: Undefined property: Config\MongoDB::$db
+[Method: POST, Route: verifyLogin]
+in APPPATH\Models\UserModel.php on line 14.
+ 1 APPPATH\Models\UserModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\MongoDB::$db', 'D:\\xampp\\htdocs\\genzblog\\app\\Models\\UserModel.php', 14)
+ 2 APPPATH\Controllers\LoginController.php(14): App\Models\UserModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\LoginController->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
